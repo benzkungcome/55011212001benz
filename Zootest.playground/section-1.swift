@@ -9,8 +9,8 @@ class zooTest {
     }
     func zooTesting() -> String {
         var out:String = ""
-        for (key, value) in countZoo{
-            if(key==zoo){
+        for (word, value) in countZoo{
+            if(word==zoo){
                 out = value
             }
         }
