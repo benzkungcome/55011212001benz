@@ -32,11 +32,10 @@ class dataCalcultor {
         else{
             println("Please input only 1-5")
         }
-
         return sum
     }
 }
 
-let answer = dataCalcultor(n1:11, n2:5, ans:6)
+let answer = dataCalcultor(n1:11, n2:5, ans:1)
 
 println("Your answer is : \(answer.cal())")

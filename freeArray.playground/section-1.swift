@@ -1,8 +1,8 @@
 class zooTest {
     
     //FreeArray
-    let countZoo :[String] = ["Bird", "Zebra", "Tiger"]
-    let countfood :[String] = ["Apple", "Mango", "Orange"]
+    var countZoo :[String] = ["Bird", "Zebra", "Tiger"]
+    var countfood :[String] = ["Apple", "Mango", "Orange"]
     
     let zoo: String
     
@@ -19,7 +19,21 @@ class zooTest {
             }
         }
         return out
+        
     }
+    
+    
+    func editAnimal(animal:String, newanimal:String){
+        for(var i=0 ; i<countZoo.count ; i++){
+            if (animal==countZoo[i]){
+            countZoo[i]=newanimal
+            break
+            }
+        }
+    }
+    
 }
 let answer = zooTest(countZoo2: "Tiger")
 println("Your Animal eat : \(answer.zooTesting())")
+
+answer.editAnimal("Snake", newanimal:"Eggs")
