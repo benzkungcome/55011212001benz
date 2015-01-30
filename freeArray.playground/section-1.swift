@@ -22,7 +22,6 @@ class zooTest {
         
     }
     
-    
     func editAnimal(animal:String, newanimal:String){
         for(var i=0 ; i<countZoo.count ; i++){
             if (animal==countZoo[i]){
