@@ -1,6 +1,7 @@
 class zooTest {
     
-    let countZoo :[String:String] = ["Bird":"Apple", "Zebra":"Mango", "Tiger":"Orange"]
+    let countZoo :[String] = ["Bird", "Zebra", "Tiger"]
+    let countfood :[String] = ["Apple", "Mango", "Orange"]
     
     let zoo: String
     
@@ -9,9 +10,11 @@ class zooTest {
     }
     func zooTesting() -> String {
         var out:String = ""
-        for (word, value) in countZoo{
-            if(word==zoo){
-                out = value
+        for (var i=0 ; i<countZoo.count ; i++){
+            if(zoo==countZoo[i]){
+                println("Your animal have eat : \(countfood[i])")
+                out=countfood[i]
+                break
             }
         }
         return out

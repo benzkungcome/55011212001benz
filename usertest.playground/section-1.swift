@@ -1,38 +1,40 @@
 class user{
-    var userAndpass : [String:String] = ["Bandit" : "123456"]
+    var userName : [String] = ["Bandit"]
+    var passWord : [String] = ["123456"]
     let User:String
     
-    init(KeepUser:String){
-        self.User = KeepUser
+    init(insearch:String){
+        self.User = insearch
     }
     func process() ->String {
         var word:String = ""
-        for (key,value) in userAndpass{
-            if(key == User){
-                word=value
+        for (var i=0 ; i<userName.count && i<passWord.count ; i++){
+            if(User == userName[i]){
+                println("Your User is : \(userName[i])")
+                word=passWord[i]
+                break
             }
         }
         return word
     }
-    func adU(userAdd:String, passAdd:String){
-        userAndpass[userAdd] = passAdd
-        
+    func adU(userAdd:String, passWord:String){
+        userName += userName
     }
     
     func delU(userdel:String){
-        userAndpass[userdel] = nil
+        userName -= nil
         
     }
     
     func eU(useredit:String, passedit:String){
-        userAndpass[useredit]=passedit
+        userName = passedit
     }
     
     
 }
 
-let processing = user(KeepUser : "BENZ")
+let processing = user(insearch : "BENZ")
 processing.process()
-processing.adU("come", passAdd: "1234")
+processing.adU("come", passWord: "1234")
 processing.delU("Bandit")
 processing.eU("comeback", passedit: "kung")
