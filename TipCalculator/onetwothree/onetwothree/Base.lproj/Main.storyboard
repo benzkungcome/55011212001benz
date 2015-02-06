@@ -71,9 +71,6 @@
                                 <color key="textColor" red="0.070588238537311554" green="0.039215687662363052" blue="0.019607843831181526" alpha="1" colorSpace="deviceRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="invoker.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="0Vk-PT-rv6">
-                                <rect key="frame" x="31" y="410" width="313" height="182"/>
-                            </imageView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MTy-KJ-Mfu">
                                 <rect key="frame" x="139" y="298" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -100,6 +97,9 @@
                                 <color key="textColor" red="0.20392158627510071" green="0.66666668653488159" blue="0.14901961386203766" alpha="1" colorSpace="deviceRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="invoker.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="0Vk-PT-rv6">
+                                <rect key="frame" x="19" y="409" width="336" height="184"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.97647064924240112" green="0.9803922176361084" blue="0.93725496530532837" alpha="1" colorSpace="deviceRGB"/>
                     </view>
