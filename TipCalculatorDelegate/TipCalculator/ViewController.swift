@@ -30,10 +30,8 @@ class ViewController: UIViewController, UITableViewDelegate{
     }
     
     @IBOutlet weak var totalTextField: UITextField!
-    
-    @IBOutlet weak var taxPctLabel: UILabel!
-    
     @IBOutlet weak var taxPctSlider: UISlider!
+    @IBOutlet weak var taxPctLabel: UILabel!
     
     @IBOutlet weak var tableView: UITableView!
     
