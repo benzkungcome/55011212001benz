@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCA3DED61AB1E32B003B57C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA3DED51AB1E32B003B57C1 /* AppDelegate.swift */; };
+		CCA3DED91AB1E32B003B57C1 /* gradenaja.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CCA3DED71AB1E32B003B57C1 /* gradenaja.xcdatamodeld */; };
+		CCA3DEDB1AB1E32B003B57C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA3DEDA1AB1E32B003B57C1 /* ViewController.swift */; };
+		CCA3DEDE1AB1E32B003B57C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCA3DEDC1AB1E32B003B57C1 /* Main.storyboard */; };
+		CCA3DEE01AB1E32B003B57C1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCA3DEDF1AB1E32B003B57C1 /* Images.xcassets */; };
+		CCA3DEE31AB1E32B003B57C1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCA3DEE11AB1E32B003B57C1 /* LaunchScreen.xib */; };
+		CCA3DEEF1AB1E32B003B57C1 /* gradenajaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA3DEEE1AB1E32B003B57C1 /* gradenajaTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCA3DEE91AB1E32B003B57C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCA3DEC81AB1E32B003B57C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCA3DECF1AB1E32B003B57C1;
+			remoteInfo = gradenaja;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCA3DED01AB1E32B003B57C1 /* gradenaja.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gradenaja.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCA3DED41AB1E32B003B57C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCA3DED51AB1E32B003B57C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CCA3DED81AB1E32B003B57C1 /* gradenaja.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = gradenaja.xcdatamodel; sourceTree = "<group>"; };
+		CCA3DEDA1AB1E32B003B57C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CCA3DEDD1AB1E32B003B57C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCA3DEDF1AB1E32B003B57C1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CCA3DEE21AB1E32B003B57C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CCA3DEE81AB1E32B003B57C1 /* gradenajaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gradenajaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCA3DEED1AB1E32B003B57C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCA3DEEE1AB1E32B003B57C1 /* gradenajaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gradenajaTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCA3DECD1AB1E32B003B57C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCA3DEE51AB1E32B003B57C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCA3DEC71AB1E32B003B57C1 = {
+			isa = PBXGroup;
+			children = (
+				CCA3DED21AB1E32B003B57C1 /* gradenaja */,
+				CCA3DEEB1AB1E32B003B57C1 /* gradenajaTests */,
+				CCA3DED11AB1E32B003B57C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCA3DED11AB1E32B003B57C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCA3DED01AB1E32B003B57C1 /* gradenaja.app */,
+				CCA3DEE81AB1E32B003B57C1 /* gradenajaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCA3DED21AB1E32B003B57C1 /* gradenaja */ = {
+			isa = PBXGroup;
+			children = (
+				CCA3DED51AB1E32B003B57C1 /* AppDelegate.swift */,
+				CCA3DEDA1AB1E32B003B57C1 /* ViewController.swift */,
+				CCA3DEDC1AB1E32B003B57C1 /* Main.storyboard */,
+				CCA3DEDF1AB1E32B003B57C1 /* Images.xcassets */,
+				CCA3DEE11AB1E32B003B57C1 /* LaunchScreen.xib */,
+				CCA3DED71AB1E32B003B57C1 /* gradenaja.xcdatamodeld */,
+				CCA3DED31AB1E32B003B57C1 /* Supporting Files */,
+			);
+			path = gradenaja;
+			sourceTree = "<group>";
+		};
+		CCA3DED31AB1E32B003B57C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCA3DED41AB1E32B003B57C1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCA3DEEB1AB1E32B003B57C1 /* gradenajaTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCA3DEEE1AB1E32B003B57C1 /* gradenajaTests.swift */,
+				CCA3DEEC1AB1E32B003B57C1 /* Supporting Files */,
+			);
+			path = gradenajaTests;
+			sourceTree = "<group>";
+		};
+		CCA3DEEC1AB1E32B003B57C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCA3DEED1AB1E32B003B57C1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCA3DECF1AB1E32B003B57C1 /* gradenaja */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCA3DEF21AB1E32B003B57C1 /* Build configuration list for PBXNativeTarget "gradenaja" */;
+			buildPhases = (
+				CCA3DECC1AB1E32B003B57C1 /* Sources */,
+				CCA3DECD1AB1E32B003B57C1 /* Frameworks */,
+				CCA3DECE1AB1E32B003B57C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gradenaja;
+			productName = gradenaja;
+			productReference = CCA3DED01AB1E32B003B57C1 /* gradenaja.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCA3DEE71AB1E32B003B57C1 /* gradenajaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCA3DEF51AB1E32B003B57C1 /* Build configuration list for PBXNativeTarget "gradenajaTests" */;
+			buildPhases = (
+				CCA3DEE41AB1E32B003B57C1 /* Sources */,
+				CCA3DEE51AB1E32B003B57C1 /* Frameworks */,
+				CCA3DEE61AB1E32B003B57C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCA3DEEA1AB1E32B003B57C1 /* PBXTargetDependency */,
+			);
+			name = gradenajaTests;
+			productName = gradenajaTests;
+			productReference = CCA3DEE81AB1E32B003B57C1 /* gradenajaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCA3DEC81AB1E32B003B57C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Supakait Jangpungsir";
+				TargetAttributes = {
+					CCA3DECF1AB1E32B003B57C1 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					CCA3DEE71AB1E32B003B57C1 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = CCA3DECF1AB1E32B003B57C1;
+					};
+				};
+			};
+			buildConfigurationList = CCA3DECB1AB1E32B003B57C1 /* Build configuration list for PBXProject "gradenaja" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCA3DEC71AB1E32B003B57C1;
+			productRefGroup = CCA3DED11AB1E32B003B57C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCA3DECF1AB1E32B003B57C1 /* gradenaja */,
+				CCA3DEE71AB1E32B003B57C1 /* gradenajaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCA3DECE1AB1E32B003B57C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA3DEDE1AB1E32B003B57C1 /* Main.storyboard in Resources */,
+				CCA3DEE31AB1E32B003B57C1 /* LaunchScreen.xib in Resources */,
+				CCA3DEE01AB1E32B003B57C1 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCA3DEE61AB1E32B003B57C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCA3DECC1AB1E32B003B57C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA3DEDB1AB1E32B003B57C1 /* ViewController.swift in Sources */,
+				CCA3DED61AB1E32B003B57C1 /* AppDelegate.swift in Sources */,
+				CCA3DED91AB1E32B003B57C1 /* gradenaja.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCA3DEE41AB1E32B003B57C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA3DEEF1AB1E32B003B57C1 /* gradenajaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCA3DEEA1AB1E32B003B57C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCA3DECF1AB1E32B003B57C1 /* gradenaja */;
+			targetProxy = CCA3DEE91AB1E32B003B57C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCA3DEDC1AB1E32B003B57C1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCA3DEDD1AB1E32B003B57C1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCA3DEE11AB1E32B003B57C1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCA3DEE21AB1E32B003B57C1 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCA3DEF01AB1E32B003B57C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CCA3DEF11AB1E32B003B57C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCA3DEF31AB1E32B003B57C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = gradenaja/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CCA3DEF41AB1E32B003B57C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = gradenaja/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CCA3DEF61AB1E32B003B57C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = gradenajaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gradenaja.app/gradenaja";
+			};
+			name = Debug;
+		};
+		CCA3DEF71AB1E32B003B57C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = gradenajaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gradenaja.app/gradenaja";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCA3DECB1AB1E32B003B57C1 /* Build configuration list for PBXProject "gradenaja" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCA3DEF01AB1E32B003B57C1 /* Debug */,
+				CCA3DEF11AB1E32B003B57C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCA3DEF21AB1E32B003B57C1 /* Build configuration list for PBXNativeTarget "gradenaja" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCA3DEF31AB1E32B003B57C1 /* Debug */,
+				CCA3DEF41AB1E32B003B57C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CCA3DEF51AB1E32B003B57C1 /* Build configuration list for PBXNativeTarget "gradenajaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCA3DEF61AB1E32B003B57C1 /* Debug */,
+				CCA3DEF71AB1E32B003B57C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CCA3DED71AB1E32B003B57C1 /* gradenaja.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CCA3DED81AB1E32B003B57C1 /* gradenaja.xcdatamodel */,
+			);
+			currentVersion = CCA3DED81AB1E32B003B57C1 /* gradenaja.xcdatamodel */;
+			path = gradenaja.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CCA3DEC81AB1E32B003B57C1 /* Project object */;
+}
