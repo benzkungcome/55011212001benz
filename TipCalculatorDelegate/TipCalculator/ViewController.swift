@@ -29,6 +29,8 @@ class ViewController: UIViewController, UITableViewDelegate{
         tableView.reloadData()
     }
     
+    
+
     @IBOutlet weak var totalTextField: UITextField!
     @IBOutlet weak var taxPctSlider: UISlider!
     @IBOutlet weak var taxPctLabel: UILabel!
@@ -57,7 +59,7 @@ class ViewController: UIViewController, UITableViewDelegate{
         taxPctLabel.text = "Tax Percentage (\(Int(taxPctSlider.value))%)"
     }
     
-    func tableView(tableView: UITableView!, numberOfRowsInSection section: Int!) -> Int {
+    func tableView(tableView: UITableView!, numberOfRowsInSection section: Int) -> Int {
         return sortedKeys.count
     }
     
