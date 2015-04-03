@@ -28,8 +28,8 @@ class ViewController: UIViewController {
         self.redSquare.frame = CGRect(x: 0, y: 0, width: 200, height: 200)
         self.blueSquare.frame = redSquare.frame
         
-        self.redSquare.backgroundColor = UIColor.redColor()
-        self.blueSquare.backgroundColor = UIColor.blueColor()
+        self.redSquare.backgroundColor = UIColor.yellowColor()
+        self.blueSquare.backgroundColor = UIColor.greenColor()
         
         self.container.addSubview(self.redSquare)
     }
